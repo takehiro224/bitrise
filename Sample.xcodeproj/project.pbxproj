@@ -12,6 +12,17 @@
 		2F187EE920490AB10055BA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F187EE720490AB10055BA0F /* Main.storyboard */; };
 		2F187EEB20490AB10055BA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F187EEA20490AB10055BA0F /* Assets.xcassets */; };
 		2F187EEE20490AB10055BA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F187EEC20490AB10055BA0F /* LaunchScreen.storyboard */; };
+		2F187EF620490D5D0055BA0F /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F187EF520490D5D0055BA0F /* SecondStoryboard.storyboard */; };
+		2F187EF8204916390055BA0F /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F187EF7204916390055BA0F /* MainPageViewController.swift */; };
+		2F187EFA204916610055BA0F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F187EF9204916610055BA0F /* FirstViewController.swift */; };
+		2F187EFC2049167E0055BA0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F187EFB2049167E0055BA0F /* SecondViewController.swift */; };
+		2F187EFE204916880055BA0F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F187EFD204916880055BA0F /* ThirdViewController.swift */; };
+		2F187F00204CC9D30055BA0F /* MyContentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F187EFF204CC9D30055BA0F /* MyContentsManager.swift */; };
+		2F187F02204CDBFC0055BA0F /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F187F01204CDBFC0055BA0F /* NotificationViewController.swift */; };
+		2F86651F204D079600A93A77 /* WKWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86651E204D079600A93A77 /* WKWViewController.swift */; };
+		2F866523204E27FA00A93A77 /* AVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F866522204E27FA00A93A77 /* AVViewController.swift */; };
+		2F866525204E34F500A93A77 /* AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F866524204E34F500A93A77 /* AVPlayerViewController.swift */; };
+		2F866527204E4ED900A93A77 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2F866526204E4E6D00A93A77 /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		2F187EEA20490AB10055BA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F187EED20490AB10055BA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F187EEF20490AB10055BA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F187EF520490D5D0055BA0F /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		2F187EF7204916390055BA0F /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		2F187EF9204916610055BA0F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2F187EFB2049167E0055BA0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2F187EFD204916880055BA0F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2F187EFF204CC9D30055BA0F /* MyContentsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContentsManager.swift; sourceTree = "<group>"; };
+		2F187F01204CDBFC0055BA0F /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		2F86651E204D079600A93A77 /* WKWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWViewController.swift; sourceTree = "<group>"; };
+		2F866522204E27FA00A93A77 /* AVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVViewController.swift; sourceTree = "<group>"; };
+		2F866524204E34F500A93A77 /* AVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewController.swift; sourceTree = "<group>"; };
+		2F866526204E4E6D00A93A77 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,33 @@
 		2F187EE220490AB10055BA0F /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				2F866528204F6E0C00A93A77 /* Page */,
 				2F187EE320490AB10055BA0F /* AppDelegate.swift */,
 				2F187EE520490AB10055BA0F /* ViewController.swift */,
 				2F187EE720490AB10055BA0F /* Main.storyboard */,
+				2F187EF520490D5D0055BA0F /* SecondStoryboard.storyboard */,
 				2F187EEA20490AB10055BA0F /* Assets.xcassets */,
 				2F187EEC20490AB10055BA0F /* LaunchScreen.storyboard */,
 				2F187EEF20490AB10055BA0F /* Info.plist */,
+				2F187EFF204CC9D30055BA0F /* MyContentsManager.swift */,
+				2F187F01204CDBFC0055BA0F /* NotificationViewController.swift */,
+				2F86651E204D079600A93A77 /* WKWViewController.swift */,
+				2F866522204E27FA00A93A77 /* AVViewController.swift */,
+				2F866524204E34F500A93A77 /* AVPlayerViewController.swift */,
+				2F866526204E4E6D00A93A77 /* test.mp4 */,
 			);
 			path = Sample;
+			sourceTree = "<group>";
+		};
+		2F866528204F6E0C00A93A77 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				2F187EF7204916390055BA0F /* MainPageViewController.swift */,
+				2F187EF9204916610055BA0F /* FirstViewController.swift */,
+				2F187EFB2049167E0055BA0F /* SecondViewController.swift */,
+				2F187EFD204916880055BA0F /* ThirdViewController.swift */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +164,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F866527204E4ED900A93A77 /* test.mp4 in Resources */,
 				2F187EEE20490AB10055BA0F /* LaunchScreen.storyboard in Resources */,
 				2F187EEB20490AB10055BA0F /* Assets.xcassets in Resources */,
 				2F187EE920490AB10055BA0F /* Main.storyboard in Resources */,
+				2F187EF620490D5D0055BA0F /* SecondStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +180,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F187EE620490AB10055BA0F /* ViewController.swift in Sources */,
+				2F187EF8204916390055BA0F /* MainPageViewController.swift in Sources */,
+				2F86651F204D079600A93A77 /* WKWViewController.swift in Sources */,
+				2F187F02204CDBFC0055BA0F /* NotificationViewController.swift in Sources */,
 				2F187EE420490AB10055BA0F /* AppDelegate.swift in Sources */,
+				2F187F00204CC9D30055BA0F /* MyContentsManager.swift in Sources */,
+				2F187EFC2049167E0055BA0F /* SecondViewController.swift in Sources */,
+				2F866523204E27FA00A93A77 /* AVViewController.swift in Sources */,
+				2F866525204E34F500A93A77 /* AVPlayerViewController.swift in Sources */,
+				2F187EFE204916880055BA0F /* ThirdViewController.swift in Sources */,
+				2F187EFA204916610055BA0F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +329,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMCFLQ9MSP;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.globis.sample.Sample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.globis.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +345,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMCFLQ9MSP;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.globis.sample.Sample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.globis.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
